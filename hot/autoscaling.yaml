@@ -229,6 +229,6 @@ outputs:
       according to its attributes. When a VM's metadata includes an item of the
       form metering.server_group=X, the corresponding Gnocchi resource has a
       attribute named server_group that can queried with 'server_group="X"' In
-      this case the nested stacks give their VMs metadata that is passed as a
-      nested stack parameter, and this stack passes a metadata of the form
+      this case the  stacks give their VMs metadata that is passed as a
+      stack parameter, and this stack passes a metadata of the form
       metering.server_group=X, where X is this stack's ID.
